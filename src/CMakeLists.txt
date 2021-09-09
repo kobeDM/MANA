@@ -5,7 +5,7 @@ set(CMAKE_VERBOSE_MAKEFILE 1)
 
 project(ROOT_COMPILE)
 
-set(Targets MANAView)
+set(Targets MANA_view MANA_spec)
   #ad2_dat2root ad2_wave ad2_sumwave ad2_pulseheight ad2_vis ad2_rnrate ad2_display)
 # You need to tell CMake where to find the ROOT installation. This can be done in a number of ways:
 #   - ROOT built with classic configure/make use the provided $ROOTSYS/etc/cmake/FindROOT.cmake
